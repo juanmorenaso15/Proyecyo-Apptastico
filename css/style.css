@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(72, 85, 95);;
+
+}
+
+.containernav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+header nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    padding: 20px;
+    list-style: none;
+    gap: 70px;
+    color: #fff;
+    align-items: center;
+}
+.home{
+    background-color: rgb(57, 58, 59);
+    border-radius: 15px;
+    padding: 5px 20px;
+    
+}
+
+.primeraseccion{
+
+    display: flex;
+  
+    justify-content: center;
+  
+    
+}
+
+.imagen{
+     margin: 50px 200px;
+    
+}
+.imagen img{
+     width: 120%;
+}
+
+.textoprimeraseccion{
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
+.textoprimeraseccion h1{
+    color: white;
+    font-size: 60px;
+    padding: 10px 0;
+}
+
+.parrafounoprimeraseccion {
+    color: white;
+    font-size: 20px;
+    padding: 0 0 20px 0;
+}
+
+.parrafodosprimeraseccion{
+    color: #ffffff93;
+}
+
+.botonesprimeraseccion{
+    display: flex;
+   font-size: 20px;
+  padding: 50px 0 0 0;
+}
+
+.botonesprimeraseccion a{
+    text-decoration: none;
+}
+
+.botonuno{
+    background-color: rgb(94, 152, 209);
+    color: white;
+    padding: 10px 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.04);
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+
