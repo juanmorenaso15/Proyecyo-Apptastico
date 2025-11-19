@@ -9,15 +9,23 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    background-color: rgb(72, 85, 95);
-    ;
 
+    
+
+}
+
+main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .containernav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+        background-color: rgb(72, 85, 95);
 }
 
 header {
@@ -48,11 +56,10 @@ nav ul {
 }
 
 .primeraseccion {
-
+    background-color: rgb(72, 85, 95);
     display: flex;
-
-    justify-content: center;
-
+    height: 62vh;
+    padding: 0 130px;
 
 }
 
@@ -106,9 +113,20 @@ nav ul {
     box-shadow: 0 5px 10    px rgba(0, 0, 0, 0.354);
     border-radius: 50px;
 }
-
+.or{
+    color: white;
+}
 .botondos{
     color: white;
     border-bottom: 1px solid white;
 }
 
+.segundaseccion{
+    background-color: rgb(220, 216, 216);
+}
+
+.imagenessegundaseccion{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
