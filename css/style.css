@@ -9,7 +9,8 @@
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
-    background-color: rgb(72, 85, 95);;
+    background-color: rgb(72, 85, 95);
+    ;
 
 }
 
@@ -19,18 +20,18 @@ body {
     justify-content: space-around;
 }
 
-header{
+header {
     padding: 20px 0;
     display: flex;
     align-items: center;
     align-content: center;
 }
 
-header nav{
+header nav {
     display: flex;
 }
 
-nav ul{
+nav ul {
     display: flex;
     padding: 20px;
     list-style: none;
@@ -38,37 +39,39 @@ nav ul{
     color: #fff;
     align-items: center;
 }
-.home{
+
+.home {
     background-color: rgb(57, 58, 59);
     border-radius: 15px;
     padding: 5px 20px;
-    
+
 }
 
-.primeraseccion{
+.primeraseccion {
 
     display: flex;
-  
+
     justify-content: center;
-  
-    
+
+
 }
 
-.imagen{
-     margin: 50px 200px;
-    
-}
-.imagen img{
-     width: 120%;
+.imagen {
+    margin: 50px 200px;
+
 }
 
-.textoprimeraseccion{
+.imagen img {
+    width: 120%;
+}
+
+.textoprimeraseccion {
     display: block;
     align-items: center;
     align-content: center;
 }
 
-.textoprimeraseccion h1{
+.textoprimeraseccion h1 {
     color: white;
     font-size: 60px;
     padding: 10px 0;
@@ -80,35 +83,32 @@ nav ul{
     padding: 0 0 20px 0;
 }
 
-.parrafodosprimeraseccion{
+.parrafodosprimeraseccion {
     color: #ffffff93;
 }
 
-.botonesprimeraseccion{
+.botonesprimeraseccion {
     display: flex;
-   font-size: 20px;
-  padding: 50px 0 0 0;
+    align-items: center;
+    font-size: 18px;
+    padding: 40px 0 0 0;
+    justify-content: space-evenly;
 }
 
-.botonesprimeraseccion a{
+.botonesprimeraseccion a {
     text-decoration: none;
 }
 
-.botonuno{
+.botonuno {
     background-color: rgb(94, 152, 209);
     color: white;
-    padding: 10px 20px;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.04);
+    padding: 10px 40px;
+    box-shadow: 0 5px 10    px rgba(0, 0, 0, 0.354);
     border-radius: 50px;
 }
 
-
-
-
-
-
-
+.botondos{
+    color: white;
+    border-bottom: 1px solid white;
+}
 
