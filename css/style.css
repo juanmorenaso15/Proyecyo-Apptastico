@@ -10,11 +10,11 @@ body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     line-height: 1.6;
 
-    
+
 
 }
 
-main{
+main {
     display: block;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-        background-color: rgb(72, 85, 95);
+    background-color: rgb(72, 85, 95);
 }
 
 header {
@@ -58,13 +58,12 @@ nav ul {
 .primeraseccion {
     background-color: rgb(72, 85, 95);
     display: flex;
-    height: 62vh;
     padding: 0 130px;
-
+    align-items: end;
 }
 
 .imagen {
-    margin: 50px 200px;
+    margin: 50px 0 0 200px;
 
 }
 
@@ -74,8 +73,7 @@ nav ul {
 
 .textoprimeraseccion {
     display: block;
-    align-items: center;
-    align-content: center;
+    margin: 0 0 100px 180px;
 }
 
 .textoprimeraseccion h1 {
@@ -110,23 +108,485 @@ nav ul {
     background-color: rgb(94, 152, 209);
     color: white;
     padding: 10px 40px;
-    box-shadow: 0 5px 10    px rgba(0, 0, 0, 0.354);
+    box-shadow: 0 5px 10 px rgba(0, 0, 0, 0.354);
     border-radius: 50px;
 }
-.or{
+
+.or {
     color: white;
 }
-.botondos{
+
+.botondos {
     color: white;
     border-bottom: 1px solid white;
 }
 
-.segundaseccion{
+.segundaseccion {
     background-color: rgb(220, 216, 216);
 }
 
-.imagenessegundaseccion{
+.imagenessegundaseccion {
     padding: 20px;
     display: flex;
     justify-content: space-evenly;
+}
+
+
+.terceraseccion {
+    margin: 100px;
+}
+
+.terceraseccionbloques {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.bloque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.bloque img {
+    margin: 0 0 50px 0;
+}
+
+.bloque h2 {
+    margin: 0 0 10px 0;
+    color: gray;
+}
+
+.bloque p {
+    color: gray;
+}
+
+.terceraseccionbotones {
+    margin: 30px 0 0 0;
+    background-color: rgb(94, 152, 209);
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+.cuartaseccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+
+    margin: 100px;
+
+
+
+}
+
+.cuartaseccion h2 {
+    margin: 0 1100px 30px 0;
+}
+
+.imagenescuartaeccion img {
+    margin: 0 100px 0 0;
+}
+
+.quintaseccion {
+    display: flex;
+    justify-content: center;
+    margin: 50px 300px;
+}
+
+.bloquescinco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.primerbloquesquintaseccion {
+    display: flex;
+    flex-direction: column;
+    margin: 0 200px 0 0;
+}
+
+.primerquintauno,
+.primerquintados {
+    display: flex;
+    margin: 30px 0;
+}
+
+.primerquintauno p {
+    margin: 0 40px;
+    color: gray;
+}
+
+.primerquintados p {
+    margin: 0 40px;
+    color: gray;
+}
+
+.primerquintauno p strong {
+    color: black;
+}
+
+.primerquintados p strong {
+    color: black;
+}
+
+.primerbloquesquintaseccion a {
+    text-decoration: none;
+    color: rgb(44, 133, 174);
+}
+
+.segndobloquesquintaseccion {
+    margin: 0 0 0px 0;
+}
+
+.segndobloquesquintaseccion h2 {
+    color: gray;
+}
+
+.segundaquintauno {
+    padding: 20px 0;
+    color: gray;
+}
+
+.segundaquintauno strong {
+
+    color: rgba(0, 0, 0, 0.646);
+}
+
+.cinco{
+    padding: 0 0 50px 0;
+}
+
+.segndobloquesquintaseccion a{
+    text-decoration: none;
+    color: rgb(44, 133, 174);
+}
+.raya{
+       border-bottom: 1px solid rgba(189, 184, 184, 0.357);
+       margin: 0 300px;
+
+}
+
+footer{
+     display: flex;
+     justify-content: space-between;
+     margin: 50px 300px;
+}
+
+
+
+@media (max-width: 1279px) {
+    .primeraseccion {
+        padding: 0 80px;
+    }
+    
+    .imagen {
+        margin: 50px 0 0 100px;
+    }
+    
+    .textoprimeraseccion {
+        margin: 0 0 80px 100px;
+    }
+    
+    .textoprimeraseccion h1 {
+        font-size: 50px;
+    }
+    
+    .terceraseccion {
+        margin: 80px 50px;
+    }
+    
+    .bloque {
+        margin: 80px 50px;
+    }
+    
+    .cuartaseccion {
+        margin: 80px 50px;
+    }
+    
+    .cuartaseccion h2 {
+        margin: 0 800px 30px 0;
+    }
+    
+  
+    .imagenescuartaeccion img {
+        margin: 0 50px 0 0;
+    }
+    
+    .quintaseccion {
+        margin: 50px 150px;
+    }
+    
+    .primerbloquesquintaseccion {
+        margin: 0 100px 0 0;
+    }
+    
+    .raya {
+        margin: 0 150px;
+    }
+    
+    footer {
+        margin: 50px 150px;
+    }
+}
+
+
+@media (max-width: 920px) {
+    .containernav {
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    nav ul {
+        gap: 40px;
+        padding: 20px 0;
+    }
+    
+    .primeraseccion {
+        flex-direction: column;
+        padding: 0 50px;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .imagen {
+        margin: 30px 0 0 0;
+    }
+    
+    .imagen img {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .textoprimeraseccion {
+        margin: 0 0 50px 0;
+    }
+    
+    .textoprimeraseccion h1 {
+        font-size: 42px;
+    }
+    
+    .botonesprimeraseccion {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .terceraseccionbloques {
+        flex-direction: column;
+    }
+    
+    .bloque {
+        margin: 50px 0;
+    }
+    
+    .cuartaseccion h2 {
+        margin: 0 0 30px 0;
+        text-align: center;
+    }
+    
+    .imagenescuartaeccion {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .imagenescuartaeccion img {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .quintaseccion {
+        margin: 50px 80px;
+    }
+    
+    .bloquescinco {
+        flex-direction: column;
+    }
+    
+    .primerbloquesquintaseccion {
+        margin: 0 0 50px 0;
+    }
+    
+    .raya {
+        margin: 0 80px;
+    }
+    
+    footer {
+        margin: 50px 80px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    .primeraseccion {
+        padding: 0 30px;
+    }
+    
+    .textoprimeraseccion h1 {
+        font-size: 36px;
+    }
+    
+    .parrafounoprimeraseccion,
+    .parrafodosprimeraseccion {
+        font-size: 16px;
+    }
+    
+    .imagenessegundaseccion {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    .imagenessegundaseccion img {
+        max-width: 120px;
+    }
+    
+    .terceraseccion {
+        margin: 50px 30px;
+    }
+    
+    .cuartaseccion {
+        margin: 50px 30px;
+    }
+    
+    .imagenescuartaeccion {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+    
+    .quintaseccion {
+        margin: 50px 30px;
+    }
+    
+    .primerquintauno,
+    .primerquintados {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .primerquintauno p,
+    .primerquintados p {
+        margin: 20px 0 0 0;
+    }
+    
+    .raya {
+        margin: 0 30px;
+    }
+    
+    footer {
+        margin: 50px 30px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+    .imagenfooter {
+        display: flex;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .containernav {
+        padding: 15px;
+    }
+    
+    .imagennav img {
+        max-width: 120px;
+    }
+    
+    .primeraseccion {
+        padding: 0 20px;
+    }
+    
+    .textoprimeraseccion h1 {
+        font-size: 28px;
+    }
+    
+    .parrafounoprimeraseccion,
+    .parrafodosprimeraseccion {
+        font-size: 14px;
+    }
+    
+    .botonuno {
+        padding: 8px 25px;
+        font-size: 14px;
+    }
+    
+    .botondos {
+        font-size: 14px;
+    }
+    
+    .terceraseccion {
+        margin: 30px 20px;
+    }
+    
+    .bloque {
+        margin: 30px 0;
+    }
+    
+    .bloque h2 {
+        font-size: 18px;
+    }
+    
+    .bloque p {
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .terceraseccionbotones {
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+    .cuartaseccion {
+        margin: 30px 20px;
+    }
+    
+    .cuartaseccion h2 {
+        font-size: 18px;
+    }
+    
+    .quintaseccion {
+        margin: 30px 20px;
+    }
+    
+    .primerquintauno img,
+    .primerquintados img {
+        max-width: 80px;
+    }
+    
+    .primerquintauno p,
+    .primerquintados p,
+    .segundaquintauno p {
+        font-size: 14px;
+    }
+    
+    .raya {
+        margin: 0 20px;
+    }
+    
+    footer {
+        margin: 30px 20px;
+    }
+    
+    .textofooter {
+        font-size: 14px;
+    }
+    
+    .imagenfooter img {
+        max-width: 24px;
+    }
 }
